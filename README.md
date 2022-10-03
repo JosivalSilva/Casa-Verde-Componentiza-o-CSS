@@ -1,2 +1,2 @@
-# Casa-Verde-Componentiza-o-CSS
+# Casa-Verde-Componentizacao-CSS
 Estudo sobre componentização CSS.
