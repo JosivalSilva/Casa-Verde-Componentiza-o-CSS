@@ -1,0 +1,21 @@
+.input{
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--branco);
+  font-family:  inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1.75rem;
+  box-shadow: 10px 10px 30px #0000000f;
+}
+.input--icone{
+  padding-left: 4.25rem;
+  background-repeat: no-repeat;
+  background-position: left 1.75rem center;
+}
+.input--img-email{
+  background-image: url(../../mobile/img/icon/mail.svg);
+}

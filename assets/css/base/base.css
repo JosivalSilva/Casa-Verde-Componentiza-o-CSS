@@ -1,0 +1,14 @@
+@import url(./_reset.css);
+@import url(./_variaveis.css);
+
+body{
+  background: url(/assets/mobile/img/textura.png), url(/assets/mobile/img/Linhas.svg);
+  background-position: center;
+
+  font-family: var(--font-family-corpo);
+  font-size: var(--font-size-corpo);
+}
+.container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
