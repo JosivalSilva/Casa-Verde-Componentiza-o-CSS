@@ -16,21 +16,58 @@
   <link rel="stylesheet" href="./assets/css/componentes/produto.css">
   <link rel="stylesheet" href="./assets/css/componentes/video.css">
   <link rel="stylesheet" href="./assets/css/componentes/rodape.css">
-  <title>Home | Casa Verde</title>
+  <title>Documentação dos Componentes</title>
 </head>
 <body>
   <header class="container cabecalho">
     <img src="./assets/mobile/img/logo.svg" alt="Logo da Casa Verde" class="cabecalho_logo">
-      <a href="" aria-label="Logo da Casa Verde">
+      <a href="">
         <img src="./assets/mobile/img/icon/carrinho.svg" alt="Carrinho de compras" class="cabecalho_carrinho">
       </a>
   </header>
-  <main>
-    <section class="container">
-      <h2 class="titulo alinhamento--esquerda">Sua casa com as</h2>
-        <span class="titulo--destaque">melhores plantas</span>
+  <main class="container">
+    <button class="botao">Assinar News Letters</button>
+    <input type="text" class="input input--icone input--img-email" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
+    <button class="botao botao--alternativo">Assinar News Letters</button>
+
+    <article class="cartao">
+      <h2 class="titulo alinhamento--centro">Como conseguir
+        <span class="titulo--destaque">minha planta</span>
       </h2>
-    </section>
+      <ul class="lista-item">
+        <li class="item">
+          <span class="item_icone item_icone--cursor"></span>
+          <p>Escolha suas plantas</p>
+        </li>
+        <li class="item">
+          <span class="item_icone item_icone--carrinho"></span>
+          <p>Faça seu pedido</p>
+        </li>
+        <li class="item">
+          <span class="item_icone item_icone--caminhao"></span>
+          <p>Aguarde em casa</p>
+        </li>
+      </ul>
+    </article>
+    <h2 class="titulo alinhamento--centro">Conheça nossos
+      <span class="titulo--destaque">produtos</span>
+    </h2>
+    <article class="produto">
+      <img src="./assets/mobile/img/produto-01 1.png" alt="Foto do produto" class="produto_img">
+      <div class="produto_conteudo">
+       <h3 class="produto_titulo titulo--destaque">Ajuga reptans</h3>
+        <p class="produto_preco">R$ 20,00</p>
+        <a href="" class="produto_comprar">Comprar<span class="produto_comprar--icone"></span></a>
+      </div>
+    </article>
+    <h2 class="titulo alinhamento--centro">Veja aqui os nossos
+      <span class="titulo--destaque">vídeos</span>
+    </h2>
+    <article class="cartao-de-video">
+      <div class="cartao-de-video_video"><img src="./assets/mobile/img/Mask Group.png" alt=""></div>
+      <h3 class="cartao-de-video_titulo">Vídeo XYZ</h3>
+      <p>Publicado em outubro de 2022</p>
+    </article>
   </main>
   <footer class="container rodape">
     <img src="./assets/mobile/img/logo.svg" alt="Logo Casa Verde" class="rodape_logo">
@@ -59,5 +96,6 @@
       Telefone: (11) 99875-2201
     </address>
   </footer>
+
 </body>
 </html>

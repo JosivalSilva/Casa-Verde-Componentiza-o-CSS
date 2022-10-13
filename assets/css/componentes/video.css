@@ -1,0 +1,43 @@
+.cartao-de-video{
+  margin-bottom: 2rem;
+}
+.cartao-de-video_video{
+  position: relative;
+
+  width: 100%;
+  max-height: 17.5rem;
+
+  overflow: hidden;
+
+  margin-bottom: 0.5rem;
+}
+.cartao-de-video_video::before{
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: block;
+
+  width: 4.875rem;
+  height: 4.875rem;
+
+  border-radius: 50%;
+
+  background-color: var(--branco);
+  background-repeat: no-repeat;
+  background-size: 1.75rem;
+  background-position: center left 55%;
+  background-image: url(../../mobile/img/Vector\ play.png);
+
+}
+.cartao-de-video_titulo{
+  color: var(--preto);
+  font-size: var(--tamanho-destaque);
+  font-weight: var(--peso-destaque);
+
+  margin-bottom: 0.5rem;
+}

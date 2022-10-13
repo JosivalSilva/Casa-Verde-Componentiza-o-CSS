@@ -7,8 +7,35 @@ body{
 
   font-family: var(--font-family-corpo);
   font-size: var(--font-size-corpo);
+  color: var(--cinza);
 }
 .container{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+/* Variáveis para a tipografia das páginas */
+.titulo{
+  font-size: var(--font-size-titulo);
+}
+.titulo--destaque{
+  font-family: var(--font-family-destaque);
+  font-size: var(--font-size-titulo-destaque);
+  font-weight: var(--peso-titulo-destaque);
+  color: var(--preto);
+
+  /* Comando para pular a linha */
+  display: block;
+
+  margin-top: 0.75rem;
+  margin-bottom: 00.75rem;
+}
+.alinhamento--esquerda{
+  text-align: left;
+}
+.alinhamento--centro{
+  text-align: center;
+}
+.entre--textos{
+  line-height: 26px;
 }

@@ -1,9 +1,22 @@
 :root{
   --amarelo:#ffcb47;
+  --amarelo-transparente:#FFCB473D;
   --branco:#ffffff;
   --cinza:#909090;
   --preto:#202020;
+  --preto-transparente:#0000000f;
 
   --font-family-corpo: 'Montserrat', Sans-serif;
-  --font-size-corpo: 1rem; 
+  --font-family-destaque:"Elsie Swash Caps", Sans-serif;
+
+  --peso-titulo-destaque:900;
+  --peso-botao:700;
+  --peso-destaque:700;
+  
+  --font-size-corpo: 1rem;
+  --font-size-titulo: 1.375rem;
+  --font-size-titulo-destaque: 2rem;
+  --font-size-comprar:1.3rem;
+  --font-size-destaque:1.375rem;
+
 }
